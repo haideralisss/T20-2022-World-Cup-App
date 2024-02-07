@@ -1,8 +1,3 @@
-// Load Env variables
-if (process.env.NODE_ENV != "production") {
-    require("dotenv").config();
-}
-
 // Import dependencies
 const express = require('express');
 const cors = require('cors')
