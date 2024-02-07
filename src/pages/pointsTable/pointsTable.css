@@ -1,0 +1,37 @@
+@import url("../../assets/utils/fonts.css");
+
+.flag {
+    height: 3vh;
+    width: 2vw;
+}
+
+.tableCard {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.table {
+    width: 80vw;
+    padding: 3vw 3vh;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.teamName {
+    text-align: start;
+    width: 60vw;
+}
+
+th {
+    color: gray;
+    font-weight: 600;
+}
+
+.tableTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'NunitoSans', 'Poppins';
+    color: rgb(0, 12, 100);
+    margin-bottom: 1.5vh;
+}

@@ -1,0 +1,68 @@
+@import url("../../assets/utils/fonts.css");
+
+.Teams {
+  background-image: url('../../assets/images/bg/home-bg(2).jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.teamLink {
+  text-decoration: none;
+}
+
+.countries .country {
+  background-color: rgba(0, 12, 100, 0.7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 10vh;
+  width: 75vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 400ms;
+  
+}
+
+.countryName {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 2vw;
+  opacity: 1;
+}
+
+.country img {
+  height: 10vh;
+  width: 8vw;
+  opacity: 1;
+}
+
+.countries .country:hover {
+  transform: scale(1.1, 1.1);
+  background-color: var(--theme);
+}
+
+.countries:hover > .country:not(:hover) {
+  /* filter: blur(10px); */
+  transform: scale(0.9, 0.9);
+}
+
+.playerLink {
+  text-decoration: none;
+}

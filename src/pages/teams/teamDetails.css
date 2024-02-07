@@ -1,0 +1,102 @@
+.TeamDetails {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamBox {
+    margin-bottom: 5vh;
+    background: linear-gradient(45deg, #3700ff 0%, #da2424 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.countryN {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+
+.countryH {
+    color: gold;
+    text-transform: uppercase;
+}
+
+.countryDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+p {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.otherCountryText {
+    font-size: 1.25rem;
+}
+
+.countryPairDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.countryDiv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 38vh;
+}
+
+.flagDiv {
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 7vh;
+    width: 60vw;
+    color: var(--theme);
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.playerCard:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.playersHeading {
+    color: var(--theme);
+    font-size: 1.7rem;
+    font-family: 'NunitoSans';
+    margin-bottom: 2.5vh;
+}
+
+.playersCont {
+    padding-bottom: 5vh;
+}

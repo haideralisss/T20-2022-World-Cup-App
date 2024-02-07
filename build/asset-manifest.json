@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb75fa88.css",
+    "main.js": "/static/js/main.23e6055a.js",
+    "static/js/787.22059dcb.chunk.js": "/static/js/787.22059dcb.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/gabba.jpg": "/static/media/gabba.86b4a705045e5817df19.jpg",
+    "static/media/perth.jpg": "/static/media/perth.f20954728b0418293a96.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/adelaide.jpg": "/static/media/adelaide.4a914b6ba3426c236996.jpg",
+    "static/media/home-bg(2).jpg": "/static/media/home-bg(2).58cd231be10dbb36f4ff.jpg",
+    "static/media/scg.jpg": "/static/media/scg.d0d88904361c4fffddce.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/NunitoSans-ExtraBold.ttf": "/static/media/NunitoSans-ExtraBold.a6b0a24bb399df5c21b1.ttf",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bellerive.jpg": "/static/media/bellerive.6f8258d7a9b941ab5ade.jpg",
+    "static/media/admin-bg.jpg": "/static/media/admin-bg.0194d0f88cc01badf2ce.jpg",
+    "static/media/logo.png": "/static/media/logo.5740e0c7ec302ec8c167.png",
+    "static/media/kardinia.jpg": "/static/media/kardinia.ce8ce4c1a6b53a2a686d.jpg",
+    "static/media/westindies.png": "/static/media/westindies.ba4358c58aed4dd30f46.png",
+    "static/media/afghanistan.png": "/static/media/afghanistan.e15ffa3d854a6323a125.png",
+    "static/media/zim.png": "/static/media/zim.4c47bff46e88b69f17e3.png",
+    "static/media/srilanka.jpg": "/static/media/srilanka.ed7d992e929d76fdbeeb.jpg",
+    "static/media/namibia.jpg": "/static/media/namibia.2f8e6f0922410c0a147d.jpg",
+    "static/media/mcg.jpg": "/static/media/mcg.707d4e31f8d37cd7f66a.jpg",
+    "static/media/pakistan.jpg": "/static/media/pakistan.42662edc1e490221211d.jpg",
+    "static/media/australia.jpg": "/static/media/australia.40065ace2d8a55f1fd27.jpg",
+    "static/media/nz.png": "/static/media/nz.3d98c099fa7751871700.png",
+    "static/media/india.jpg": "/static/media/india.087fabcdadd3145eff8b.jpg",
+    "static/media/southafrica.jpg": "/static/media/southafrica.80a51a293bcd60d887b6.jpg",
+    "index.html": "/index.html",
+    "main.eb75fa88.css.map": "/static/css/main.eb75fa88.css.map",
+    "main.23e6055a.js.map": "/static/js/main.23e6055a.js.map",
+    "787.22059dcb.chunk.js.map": "/static/js/787.22059dcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb75fa88.css",
+    "static/js/main.23e6055a.js"
+  ]
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+.comparePlayersPage {
+    width: 100%;
+    height: 100%;
+}
+.comparePlayersHeader {
+    width: 100vw;
+    height: 40vh;
+    background-image: linear-gradient(45deg, #ee2364 0%, #3700ff 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comparePlayersHeader h1 {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-left: 10vw;
+}
+
+.lottie {
+    width: 20vw;
+    /* margin-top:  */
+    margin-right: 10vw;
+}
+
+.comparePlayersDropDowns {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.playerData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10vw;
+    margin-bottom: 3vh;
+    /* margin-top: 10vh; */
+}
+
+.player1Data {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    min-width: 30%;
+    align-items: center;
+}
+
+.player2Data {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    min-width: 30%;
+    align-items: center;
+}
+
+.teamsHeading {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+.h1Word1 {
+    color: #ee2364;
+}
+
+.flagImages {
+    width: 10vw;
+}
+
+.playerName {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 4vh;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.playerStats {
+    max-width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100vh;
+}
+
+.playerStatsHeading {
+    font-weight: 600;
+    margin-bottom: 10vh;
+}
+
+.playerStatsHeading span {
+    color: #ee2364;
+}
+
+.playerStatsTable {
+    width: 100%;
+    border: 1px solid #eee;
+    height: 80vh;
+    overflow: scroll;
+    box-shadow: 3px 5px 20px black;
+    border-radius: 10px;
+}
+
+.table-header {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(45deg, #ee2364 0%, #3700ff 100%);
+    padding: 10px 0;
+}
+
+.table-row {
+    display: flex;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.table-data, .header__item {
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.header__item {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.dataAttribute {
+    font-weight: bold;
+}

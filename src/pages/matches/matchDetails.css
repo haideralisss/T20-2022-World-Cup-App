@@ -1,0 +1,185 @@
+.MatchDetails {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 91vh;
+}
+
+#bowlingTable {
+    /* width: 70vw; */
+    width: 69vw;
+    height: 39vh;
+    box-shadow: none;
+}
+
+.BowlingCard {
+    width: 70vw;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    margin-bottom: 5vh;
+}
+
+#battingTable {
+    width: 70vw;
+}
+
+.howOutRow {
+    border: none !important;
+    border-color: transparent !important;
+    outline: none;
+    color: gray;
+    font-size: 12px;
+}
+.bowlingTable th {
+    font-weight: normal;
+}
+
+.bowler {
+    width: 55vw;
+    text-align: start;
+}
+
+.batter {
+    text-align: left;
+}
+
+.totalRuns {
+    font-weight: bold;
+    color: var(--theme);
+    text-align: left;
+}
+
+.cardScore {
+    text-align: left;
+    font-weight: bold;
+    color: var(--theme);
+}
+
+.runsRow {
+    height: 8vh;
+    margin-top: 5vh;
+}
+
+.scorecardNav {
+    display: flex;
+    color: var(--theme);
+    font-weight: 600;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: 4px solid var(--theme);
+    /* background-color: white; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    overflow: hidden;
+    margin-top: 13vh;
+    margin-bottom: 2vh;
+}
+
+.scorecardNav div {
+    text-transform: uppercase;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team1Nav {
+    background-color: var(--theme);
+    color: white;
+    cursor: pointer;
+}
+
+.team1Nav.active {
+    transition: background-color 0.3s ease-in-out;
+    background-color: white;
+    color: var(--theme);
+}
+
+.team2Nav {
+    background-color: var(--theme);
+    color: white;
+    cursor: pointer;
+}
+
+.team2Nav.active {
+    transition: background-color 0.3s ease-in-out;
+    background-color: white;
+    color: var(--theme);
+}
+
+.highlights {
+    margin-bottom: 25vh;
+}
+
+.matchSummaryBox {
+    margin-bottom: 5vh;
+    background: linear-gradient(45deg, #ee2364 0%, #3700ff 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matchSummary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.matchSummary div {
+    width: 5vw;
+}
+
+.sumFlag {
+    height: 12vh;
+    width: 9vw;
+}
+
+.teamDetail {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamDetail p {
+    margin-bottom: 0px;
+}
+
+.teamScore {
+    text-align: center;
+    font-size: 40px;
+}
+
+.versus {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.matchSummaryBox {
+    color: white;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.venueNdate {
+    margin-top: 2vh;
+    color: gold;
+}
+
+.matchResul {
+    font-size: 20px;
+}
+
+.teamOvers {
+    width: 7vw;
+}

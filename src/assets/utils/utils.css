@@ -1,0 +1,11 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 9vh);
+}
